@@ -481,6 +481,7 @@ actor CaptureService {
     }
 }
 
+/// Modified for LivePhotoPreviewFOVIssue repo.
 class DelegateImpl: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
     func captureOutput(
         _ output: AVCaptureOutput,

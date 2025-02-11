@@ -128,6 +128,7 @@ final class PhotoCapture: OutputService {
         photoOutput.isFastCapturePrioritizationEnabled = photoOutput.isFastCapturePrioritizationSupported
         photoOutput.isAutoDeferredPhotoDeliveryEnabled = photoOutput.isAutoDeferredPhotoDeliverySupported
         
+        // Modified for LivePhotoPreviewFOVIssue repo.
         try! device.lockForConfiguration()
         device.videoZoomFactor = 1.2
         device.unlockForConfiguration()
